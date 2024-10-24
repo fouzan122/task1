@@ -5,12 +5,12 @@ public class StudentGradeTracker {
     public static void main(String[] args) {
         ArrayList<Double> grades = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        
+
         // Input loop for grades
         while (true) {
             System.out.print("Enter a student's grade (or type 'done' to finish): ");
             String input = scanner.nextLine();
-            
+
             if (input.equalsIgnoreCase("done")) {
                 break;
             }
